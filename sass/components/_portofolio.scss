@@ -1,0 +1,22 @@
+.portofolio {
+    margin-top: 3rem;
+
+    @media only screen and (max-width: 1060px) {
+        flex: 0 0 53%;
+    }
+
+    &__content {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.0625);
+        padding: 2rem;
+        height: 22.2rem;
+
+        display: flex;
+        align-items: center;
+
+        @media only screen and (max-width: 380px) {
+            padding: .5rem;
+
+        }
+    }
+}

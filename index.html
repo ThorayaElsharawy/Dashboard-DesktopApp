@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/deepmind-logo4.jpg">
+    <title>Dashboard desktopApp</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidenav">
+
+            <div class="side__header">
+                <div class="side__header-photo"></div>
+                <div class="sode__header-name">
+                    <h2 class="side__header-company">Dashboard</h2>
+                    <h2 class="side__header-user">Joan Marek
+                        <svg class="side__header-icon">
+                            <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                        </svg>
+                    </h2>
+                </div>
+            </div>
+
+            <form action="#" class="search">
+                <input class="search__input" placeholder="Search" type="text">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+
+            <nav class="side__nav">
+                <ul class="side__nav-list">
+
+                    <li class="side__nav-item side__nav-item--active">
+                        <svg class="side__nav-icon">
+                            <use xlink:href="img/sprite.svg#icon-home"></use>
+                        </svg>
+                        <a class="side__nav-link" href="#">Dashbord</a>
+                    </li>
+
+                    <li class="side__nav-item">
+                        <svg class="side__nav-icon">
+                            <use xlink:href="img/sprite.svg#icon-file-picture"></use>
+                        </svg>
+                        <a class="side__nav-link" href="#">Account Statment</a>
+                    </li>
+
+
+                    <li class="side__nav-item">
+                        <svg class="side__nav-icon">
+                            <use xlink:href="img/sprite.svg#icon-fire"></use>
+                        </svg>
+                        <a class="side__nav-link" href="#">Trending</a>
+                    </li>
+
+                    <li class="side__nav-item">
+                        <svg class="side__nav-icon">
+                            <use xlink:href="img/sprite.svg#icon-credit-card"></use>
+                        </svg>
+                        <a class="side__nav-link" href="#">Pay Bills</a>
+                    </li>
+
+
+                    <li class="side__nav-item">
+                        <svg class="side__nav-icon">
+                            <use xlink:href="img/sprite.svg#icon-joomla"></use>
+                        </svg>
+                        <a class="side__nav-link" href="#">Tools</a>
+                    </li>
+
+                    <li class="side__nav-item">
+                        <svg class="side__nav-icon">
+                            <use xlink:href="img/sprite.svg#icon-cogs"></use>
+                        </svg>
+                        <a class="side__nav-link" href="#">Setting</a>
+                    </li>
+
+                    <li class="side__nav-item">
+                        <svg class="side__nav-icon">
+                            <use xlink:href="img/sprite.svg#icon-info"></use>
+                        </svg>
+                        <a class="side__nav-link" href="#">Help</a>
+                    </li>
+
+
+                    <li class="side__nav-item">
+                        <svg class="side__nav-icon">
+                            <use xlink:href="img/sprite.svg#icon-exit"></use>
+                        </svg>
+                        <a class="side__nav-link" href="#">Log out</a>
+                    </li>
+
+
+                </ul>
+            </nav>
+
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <div class="dashboard">
+                    <h2 class="primary-heading">Dashboard</h2>
+                    <div class="dashboard__content">
+                        <h5 class="dashboard__content-heading">Monthly Stats</h5>
+                        <figure>
+                            <img class="dashboard__content-img" src="img/chart.png" alt="chart image">
+                            <figcaption class="caption__list">
+                                <div class="caption__item">
+                                    <span>10%</span>
+                                    <svg class="caption__icon caption__icon-success">
+                                        <use xlink:href="img/sprite.svg#icon-level-up"></use>
+                                    </svg>
+                                    <small>APPL</small>
+                                </div>
+                                <div class="caption__item">
+                                    <span class="">2%</span>
+                                    <svg class="caption__icon caption__icon-danger">
+                                        <use xlink:href="img/sprite.svg#icon-level-down"></use>
+                                    </svg>
+                                    <small>Average</small>
+                                </div>
+                                <div class="caption__item">
+                                    <span>15%</span>
+                                    <svg class="caption__icon caption__icon-success">
+                                        <use xlink:href="img/sprite.svg#icon-level-up"></use>
+                                    </svg>
+                                    <small>Sales</small>
+                                </div>
+                                <div class="caption__item">
+                                    <span>15%</span>
+                                    <svg class="caption__icon caption__icon-danger">
+                                        <use xlink:href="img/sprite.svg#icon-level-down"></use>
+                                    </svg>
+                                    <small>Profit</small>
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+                <div class="sales-report">
+                    <h2 class="primary-heading">
+                        Sales Report
+                    </h2>
+                    <div class="sales-report__content">
+                        <div class="blue__box">
+                            <div class="blue__box-heading">
+                                <h2>November 2017</h2>
+                                <p>Sales Report</p>
+                            </div>
+                            <p class="blue__box-amount">$6,000</p>
+                        </div>
+    
+                        <div class="table">
+                            <div class="table__head">
+                                <div class="table__head-row">
+                                    <div class="table__head-col">Name</div>
+                                    <div class="table__head-col">Status</div>
+                                    <div class="table__head-col">Date</div>
+                                    <div class="table__head-col">Price</div>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__col">Item#1</div>
+                                <div class="table__col table__col--primary">New</div>
+                                <div class="table__col ">Nov 18</div>
+                                <div class="table__col">$12</div>
+                            </div>
+    
+                            <div class="table__row">
+                                <div class="table__col">Item#2</div>
+                                <div class="table__col table__col--danger">unavaliable</div>
+                                <div class="table__col ">Nov 19</div>
+                                <div class="table__col">$64</div>
+                            </div>
+    
+                            <div class="table__row">
+                                <div class="table__col">Item#3</div>
+                                <div class="table__col table__col--warning">Used</div>
+                                <div class="table__col">Nov 20</div>
+                                <div class="table__col">$30</div>
+                            </div>
+    
+                            <div class="table__row">
+                                <div class="table__col">Item#4</div>
+                                <div class="table__col table__col--success">avaliable</div>
+                                <div class="table__col">Nov 21</div>
+                                <div class="table__col">$12</div>
+                            </div>
+    
+                           
+                        </div>
+    
+                        <div class="sales-report__footer">
+                            <a class="sales-report__footer-link" href="#">Check all the sales</a>
+                        </div>
+                    </div>
+            
+
+                </div>
+            </div>
+            <div class="content-right">
+
+                <div class="utility">
+                    <h2 class="primary-heading">
+                        Utility
+                    </h2>
+                    <div class="utility__content">
+                        <div class="utility__item">
+                            <h2 class="utility__heading">Transfer Balance</h2>
+                            <button class="btn">Transfer Now</button>
+                        </div>
+                        <div class="utility__item">
+                            <h2 class="utility__heading">Apply for Loan</h2>
+                            <button class="btn">Apply Now</button>
+
+                        </div>
+                        <div class="utility__item">
+                            <h2 class="utility__heading">View Cheque Statues</h2>
+                            <button class="btn">View Now</button>
+
+                        </div>
+                        <div class="utility__item">
+                           
+                            <h2 class="utility__heading--big">
+                                <small>credit card</small>
+                                VISA
+                            </h2>
+                            <p>Lorem, ipsum.</p>
+                            <h3>2438 7437 44934</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="portofolio">
+                        <h2 class="primary-heading">
+                            portofolio
+                        </h2>
+                        <div class="portofolio__content">
+                            <div class="chart">
+                                <span class="chart__precentage">80%</span>
+                            </div>
+    
+                            <div class="chart__data">
+                                <h3>New Purchases</h3>
+                                <p>Lorem, ipsum. 50%</p>
+                                <p>Lorem, ipsum. 70%</p>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="learn__section">
+                        <p class="learn__section-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nihil.</p>
+                        <button class="btn">Learn more</button>
+                    </div>
+                </div>
+
+      
+
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
